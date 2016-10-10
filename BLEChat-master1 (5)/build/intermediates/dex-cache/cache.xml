@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\cjk28\Downloads\testOpenCV1\BLEChat-master1 (5)\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="d0dda274b703dd9c5bb056867649d22b4171ae7d">
+        <dex dex="C:\Users\cjk28\Downloads\testOpenCV1\BLEChat-master1 (5)\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-8.1.0_b6addfdfa68cb90f1efe0400f737efbb3f1046de\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\cjk28\Downloads\testOpenCV1\BLEChat-master1 (5)\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.1.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="4477ea44f5ec5ad064022a22691732d7638ff197">
+        <dex dex="C:\Users\cjk28\Downloads\testOpenCV1\BLEChat-master1 (5)\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appindexing-8.1.0_4b08b04f123be27b3e24ae3d016955e1795d30dd\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\cjk28\Downloads\testOpenCV1\BLEChat-master1 (5)\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="a186d547e65634b4481e890d2dfbe279b6badde0">
+        <dex dex="C:\Users\cjk28\Downloads\testOpenCV1\BLEChat-master1 (5)\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_e96ba98784a5b7bae5fa7ade3c8f8e4ba78b4de1\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\cjk28\Downloads\testOpenCV1\BLEChat-master1 (5)\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="C:\Users\cjk28\Downloads\testOpenCV1\BLEChat-master1 (5)\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.4.0_f762fbab3901505c70db4a7acdded88d256b7068\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\cjk28\Downloads\testOpenCV1\BLEChat-master1 (5)\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="C:\Users\cjk28\Downloads\testOpenCV1\BLEChat-master1 (5)\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.4.0_3ec732e10c871e29c5c6a67e54e0b36750067411\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\cjk28\Downloads\testOpenCV1\BLEChat-master1 (5)\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="290448747c14aa8e5afff3e683224a64dad6c498">
+        <dex dex="C:\Users\cjk28\Downloads\testOpenCV1\BLEChat-master1 (5)\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_d947cb50675e3c74356653dac4f8b9c7f1addbad\classes.dex" />
+    </item>
+    <item
+        jar="D:\Users\cjk28\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="true"
+        revision="24.0.0"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="C:\Users\cjk28\Downloads\testOpenCV1\BLEChat-master1 (5)\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.4.0_b5954709231e4d6c7847eaccdbc2654ca977387b\classes.dex" />
+    </item>
+
+</items>

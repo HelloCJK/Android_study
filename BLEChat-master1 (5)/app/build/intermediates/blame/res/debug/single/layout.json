@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "D:\\MobileProgramming\\BLEChat-master1 (5)\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_main_dummy.xml",
+        "source": "D:\\MobileProgramming\\BLEChat-master1 (5)\\app\\src\\main\\res\\layout\\fragment_main_dummy.xml"
+    },
+    {
+        "merged": "D:\\MobileProgramming\\BLEChat-master1 (5)\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "D:\\MobileProgramming\\BLEChat-master1 (5)\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\MobileProgramming\\BLEChat-master1 (5)\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_settings.xml",
+        "source": "D:\\MobileProgramming\\BLEChat-master1 (5)\\app\\src\\main\\res\\layout\\fragment_settings.xml"
+    },
+    {
+        "merged": "D:\\MobileProgramming\\BLEChat-master1 (5)\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mediacontroller.xml",
+        "source": "D:\\MobileProgramming\\BLEChat-master1 (5)\\app\\build\\intermediates\\exploded-aar\\BLEChat-master1 (5)\\vitamio\\unspecified\\res\\layout\\mediacontroller.xml"
+    },
+    {
+        "merged": "D:\\MobileProgramming\\BLEChat-master1 (5)\\app\\build\\intermediates\\res\\merged\\debug\\layout\\view_cam.xml",
+        "source": "D:\\MobileProgramming\\BLEChat-master1 (5)\\app\\src\\main\\res\\layout\\view_cam.xml"
+    },
+    {
+        "merged": "D:\\MobileProgramming\\BLEChat-master1 (5)\\app\\build\\intermediates\\res\\merged\\debug\\layout\\adapter_device_name.xml",
+        "source": "D:\\MobileProgramming\\BLEChat-master1 (5)\\app\\src\\main\\res\\layout\\adapter_device_name.xml"
+    },
+    {
+        "merged": "D:\\MobileProgramming\\BLEChat-master1 (5)\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_device_list.xml",
+        "source": "D:\\MobileProgramming\\BLEChat-master1 (5)\\app\\src\\main\\res\\layout\\activity_device_list.xml"
+    }
+]

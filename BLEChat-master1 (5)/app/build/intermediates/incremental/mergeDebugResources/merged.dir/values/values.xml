@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <color name="blue1">#C1DBFA</color>
+    <color name="blue2">#A3CBF9</color>
+    <color name="blue3">#89B9F0</color>
+    <color name="blue4">#7DA7D9</color>
+    <color name="blue5">#448CCB</color>
+    <color name="blue6">#0072BC</color>
+    <color name="blue7">#004A80</color>
+    <color name="blue8">#003663</color>
+    <color name="brown1">#E2674A</color>
+    <color name="brown2">#E05C3E</color>
+    <color name="brown3">#DD4D2C</color>
+    <color name="brown4">#D34322</color>
+    <color name="brown5">#C13D1F</color>
+    <color name="brown6">#AF371D</color>
+    <color name="brown7">#9E321A</color>
+    <color name="brown8">#8C2C17</color>
+    <color name="common_action_bar_splitter">#d2d2d2</color>
+    <color name="common_signin_btn_dark_text_default">@android:color/white</color>
+    <color name="common_signin_btn_dark_text_disabled">#FFAAAAAA</color>
+    <color name="common_signin_btn_dark_text_focused">@android:color/white</color>
+    <color name="common_signin_btn_dark_text_pressed">@android:color/white</color>
+    <color name="common_signin_btn_default_background">#FFDD4B39</color>
+    <color name="common_signin_btn_light_text_default">#FF737373</color>
+    <color name="common_signin_btn_light_text_disabled">#FFAAAAAA</color>
+    <color name="common_signin_btn_light_text_focused">#FF737373</color>
+    <color name="common_signin_btn_light_text_pressed">@android:color/white</color>
+    <color name="deepblue1">#E6E5F8</color>
+    <color name="deepblue2">#CECBED</color>
+    <color name="deepblue3">#B3AEDD</color>
+    <color name="deepblue4">#8781BD</color>
+    <color name="deepblue5">#605CA8</color>
+    <color name="deepblue6">#2E3192</color>
+    <color name="deepblue7">#1B1464</color>
+    <color name="deepblue8">#0D004C</color>
+    <color name="deepgreen1">#005826</color>
+    <color name="deepgreen2">#007236</color>
+    <color name="deepgreen3">#00A651</color>
+    <color name="deepgreen4">#3CB878</color>
+    <color name="deepgreen5">#82CA9C</color>
+    <color name="deepgreen6">#99D8B0</color>
+    <color name="deepgreen7">#B6E9C9</color>
+    <color name="deepgreen8">#D4F5E1</color>
+    <color name="deeppurple1">#32004B</color>
+    <color name="deeppurple2">#440E62</color>
+    <color name="deeppurple3">#662D91</color>
+    <color name="deeppurple4">#8560A8</color>
+    <color name="deeppurple5">#A186BE</color>
+    <color name="deeppurple6">#BAA4D3</color>
+    <color name="deeppurple7">#FFF799</color>
+    <color name="deeppurple8">#EDE5F7</color>
+    <color name="gray1">#111111</color>
+    <color name="gray2">#222222</color>
+    <color name="gray3">#333333</color>
+    <color name="gray4">#444444</color>
+    <color name="gray5">#555555</color>
+    <color name="gray6">#666666</color>
+    <color name="gray7">#777777</color>
+    <color name="gray8">#888888</color>
+    <color name="gray9">#999999</color>
+    <color name="graya">#AAAAAA</color>
+    <color name="grayb">#BBBBBB</color>
+    <color name="grayc">#CCCCCC</color>
+    <color name="grayd">#DDDDDD</color>
+    <color name="graye">#EEEEEE</color>
+    <color name="grayf">#FFFFFF</color>
+    <color name="green1">#005E20</color>
+    <color name="green2">#197B30</color>
+    <color name="green3">#39B54A</color>
+    <color name="green4">#7CC576</color>
+    <color name="green5">#A3D39C</color>
+    <color name="green6">#C0E5BB</color>
+    <color name="green7">#CEEACA</color>
+    <color name="green8">#DFF3DC</color>
+    <color name="lightblue1">#CBEEFB</color>
+    <color name="lightblue2">#A0E0F8</color>
+    <color name="lightblue3">#76D3F6</color>
+    <color name="lightblue4">#4EC4F1</color>
+    <color name="lightblue5">#1BB0E8</color>
+    <color name="lightblue6">#06A3DE</color>
+    <color name="lightblue7">#0076A3</color>
+    <color name="lightblue8">#005B7F</color>
+    <color name="lightgreen1">#F4FDE5</color>
+    <color name="lightgreen2">#EAF9D4</color>
+    <color name="lightgreen3">#DBEFBD</color>
+    <color name="lightgreen4">#C4DF9B</color>
+    <color name="lightgreen5">#ACD373</color>
+    <color name="lightgreen6">#8DC63F</color>
+    <color name="lightgreen7">#598527</color>
+    <color name="lightgreen8">#406618</color>
+    <color name="mediacontroller_bg">#99000000</color>
+    <color name="mediacontroller_bg_pressed">#ff53c1bd</color>
+    <color name="orange1">#7D4900</color>
+    <color name="orange2">#9E0B0E</color>
+    <color name="orange3">#E3820F</color>
+    <color name="orange4">#F7941D</color>
+    <color name="orange5">#F7A94D</color>
+    <color name="orange6">#F7BA71</color>
+    <color name="orange7">#F6D1A5</color>
+    <color name="orange8">#F6E1C8</color>
+    <color name="pink1">#7B0046</color>
+    <color name="pink2">#7B0046</color>
+    <color name="pink3">#9E005D</color>
+    <color name="pink4">#EC008C</color>
+    <color name="pink5">#F06EAA</color>
+    <color name="pink6">#F49AC1</color>
+    <color name="pink7">#F9BDD8</color>
+    <color name="pink8">#FEE3EF</color>
+    <color name="purple1">#4B0049</color>
+    <color name="purple2">#630460</color>
+    <color name="purple3">#32004B</color>
+    <color name="purple4">#A864A8</color>
+    <color name="purple5">#BD8CBF</color>
+    <color name="purple6">#D7A3DA</color>
+    <color name="purple7">#F1B6F4</color>
+    <color name="purple8">#F9D8FB</color>
+    <color name="red1">#790000</color>
+    <color name="red2">#9E0B0E</color>
+    <color name="red3">#E0272E</color>
+    <color name="red4">#F26C4F</color>
+    <color name="red5">#F69679</color>
+    <color name="red6">#FAB7A3</color>
+    <color name="red7">#FBD0C3</color>
+    <color name="red8">#FCE1D8</color>
+    <color name="transparent">#00000000</color>
+    <color name="yellow1">#827B00</color>
+    <color name="yellow2">#ABA000</color>
+    <color name="yellow3">#D3C90C</color>
+    <color name="yellow4">#ECE007</color>
+    <color name="yellow5">#FEF108</color>
+    <color name="yellow6">#FFF568</color>
+    <color name="yellow7">#FFF799</color>
+    <color name="yellow8">#FEFAC5</color>
+    <declare-styleable name="LoadingImageView"><attr format="enum" name="imageAspectRatioAdjust">
+            <enum name="none" value="0"/>
+            <enum name="adjust_width" value="1"/>
+            <enum name="adjust_height" value="2"/>
+        </attr><attr format="float" name="imageAspectRatio"/><attr format="boolean" name="circleCrop"/></declare-styleable>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <integer name="google_play_services_version">8115000</integer>
+    <string name="VideoView_error_button">OK</string>
+    <string name="VideoView_error_text_invalid_progressive_playback">Sorry, this video is not valid for streaming to
+        this device.
+    </string>
+    <string name="VideoView_error_text_unknown">Sorry, this video cannot be played.</string>
+    <string name="VideoView_error_title">Cannot play video</string>
+    <string name="action_settings">App Settings</string>
+    <string name="app_name">BLE Chat</string>
+    <string name="auth_google_play_services_client_facebook_display_name">Facebook</string>
+    <string name="auth_google_play_services_client_google_display_name">Google</string>
+    <string name="bt_ble_not_supported">This device doesn\'t support BLE. Cannot start app.</string>
+    <string name="bt_cmd_sending_error">Transaction failed</string>
+    <string name="bt_not_enabled_leaving">Bluetooth is not enabled. Set the bluetooth on at phone settings.</string>
+    <string name="bt_state_connect">connecting</string>
+    <string name="bt_state_connected">connected</string>
+    <string name="bt_state_error">error</string>
+    <string name="bt_state_init">initializing</string>
+    <string name="bt_state_wait">waiting.. (select a device manually)</string>
+    <string name="bt_title">Bluetooth</string>
+    <string name="button_scan">Scan for devices</string>
+    <string name="common_android_wear_notification_needs_update_text"><ns1:g id="app_name">%1$s</ns1:g> requires an update to the Android Wear app.</string>
+    <string name="common_android_wear_update_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t run unless you update the Android Wear app.</string>
+    <string msgid="6006316683626838685" name="common_android_wear_update_title">Update Android Wear</string>
+    <string name="common_google_play_services_api_unavailable_text"><ns1:g id="app_name">%1$s</ns1:g> requires one or more Google Play services that are not currently available. Please contact the developer for assistance.</string>
+    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Enable Google Play services</string>
+    <string msgid="227660514972886228" name="common_google_play_services_enable_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t work unless you enable Google Play services.</string>
+    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Enable Google Play services</string>
+    <string name="common_google_play_services_error_notification_requested_by_msg">Requested by <ns1:g id="app_name">%1$s</ns1:g></string>
+    <string msgid="7153882981874058840" name="common_google_play_services_install_button">Get Google Play services</string>
+    <string msgid="2122112764540849864" name="common_google_play_services_install_text_phone"><ns1:g id="app_name">%1$s</ns1:g> won\'t run without Google Play services, which are missing from your phone.</string>
+    <string msgid="7351599665250191022" name="common_google_play_services_install_text_tablet"><ns1:g id="app_name">%1$s</ns1:g> won\'t run without Google Play services, which are missing from your tablet.</string>
+    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Get Google Play services</string>
+    <string name="common_google_play_services_invalid_account_text">The specified account does not exist on this device. Please choose a different account.</string>
+    <string name="common_google_play_services_invalid_account_title">Invalid Account</string>
+    <string name="common_google_play_services_needs_enabling_title">An application requires Google Play services to be enabled.</string>
+    <string name="common_google_play_services_network_error_text">A data connection is required to connect to Google Play services.</string>
+    <string name="common_google_play_services_network_error_title">Network Error</string>
+    <string name="common_google_play_services_notification_needs_update_title">An application requires an update for Google Play services.</string>
+    <string name="common_google_play_services_notification_ticker">Google Play services error</string>
+    <string name="common_google_play_services_sign_in_failed_text">Error signing in the specified account. Please choose a different account.</string>
+    <string name="common_google_play_services_sign_in_failed_title">Sign in failed</string>
+    <string name="common_google_play_services_unknown_issue">Unknown issue with Google Play services.</string>
+    <string name="common_google_play_services_unsupported_text"><ns1:g id="app_name">%1$s</ns1:g> relies on Google Play services, which is not supported by your device. Contact the manufacturer for assistance.</string>
+    <string name="common_google_play_services_unsupported_title">Google Play services</string>
+    <string msgid="6556509956452265614" name="common_google_play_services_update_button">Update</string>
+    <string msgid="9053896323427875356" name="common_google_play_services_update_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t run unless you update Google Play services.</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">Update Google Play services</string>
+    <string name="common_google_play_services_updating_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t run without Google Play services, which are currently updating.</string>
+    <string name="common_google_play_services_updating_title">Google Play services are updating</string>
+    <string name="common_open_on_phone">Open on phone</string>
+    <string name="connect">Connect\na device</string>
+    <string name="discoverable">Make\ndiscoverable</string>
+    <string name="mediacontroller_play_pause">Play/Pause</string>
+    <string name="none_found">No devices found</string>
+    <string name="none_paired">No devices have been paired</string>
+    <string name="permission_group_tools_description">Access Vitamio package and resources.</string>
+    <string name="permission_group_tools_label">Vitamio tools</string>
+    <string name="permission_receive_messages_description">Receive all broadcasts from Vitamio service.</string>
+    <string name="permission_receive_messages_label">Receive Vitamio messages</string>
+    <string name="permission_write_providers_description">Delete, update or create new items in Vitamio providers.
+    </string>
+    <string name="permission_write_providers_label">Write Vitamio providers</string>
+    <string name="scanning">Scanning for devices...</string>
+    <string name="select_device">Select a device to connect</string>
+    <string name="service_name">BLE Chat Service</string>
+    <string name="settings_background_service">Run in background</string>
+    <string name="settings_copyrights">\n\nFind more at http://www.hardcopyworld.com</string>
+    <string name="settings_iot_guide">\nBT Chat automatically sends HTTP GET request to specified server if there is a string like below.</string>
+    <string name="title_example">BLE Chat</string>
+    <string name="title_ll_settings">Settings</string>
+    <string name="title_other_devices">Other Available Devices</string>
+    <string name="title_paired_devices">Paired Devices</string>
+    <string name="ui_send">Send</string>
+    <string name="vitamio_init_decoders">Initializing decoders…</string>
+    <string name="vitamio_library_app_name">VitamioLibrary</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="AppTheme.ConnectionInfoContainer">
+        <item name="android:background">@color/gray3</item>
+    </style>
+    <style name="AppTheme.ConnectionInfoText">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/graye</item>
+    </style>
+    <style name="AppTheme.DialogText">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/gray2</item>
+        <item name="android:padding">5dip</item>
+        <item name="android:lineSpacingExtra">2dip</item>
+    </style>
+    <style name="AppTheme.FormButton">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#EFEFEF</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:layout_margin">4dip</item>
+        <item name="android:padding">0dip</item>
+        <item name="android:background">@drawable/form_button_selector</item>
+    </style>
+    <style name="AppTheme.FormContainer">
+        <item name="android:background">#E0E0E0</item>
+        <item name="android:paddingBottom">2dip</item>
+    </style>
+    <style name="AppTheme.FormEditText">
+        <item name="android:textSize">12sp</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:layout_margin">2dip</item>
+        <item name="android:paddingLeft">10dip</item>
+        <item name="android:paddingRight">10dip</item>
+        <item name="android:privateImeOptions">defaultInputmode=english;symbol=true</item>
+    </style>
+    <style name="AppTheme.FormSpinner">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">#3F3F3F</item>
+    </style>
+    <style name="AppTheme.FormText">
+        <item name="android:textSize">12sp</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:layout_margin">2dip</item>
+        <item name="android:paddingLeft">10dip</item>
+        <item name="android:paddingRight">10dip</item>
+    </style>
+    <style name="AppTheme.FormURLButton">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#EFEFEF</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:layout_margin">4dip</item>
+        <item name="android:padding">0dip</item>
+        <item name="android:background">@drawable/form_button_selector</item>
+    </style>
+    <style name="AppTheme.FormURLEditText">
+        <item name="android:textSize">10sp</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:layout_margin">2dip</item>
+        <item name="android:paddingLeft">10dip</item>
+        <item name="android:paddingRight">10dip</item>
+        <item name="android:privateImeOptions">defaultInputmode=english;symbol=true</item>
+    </style>
+    <style name="AppTheme.FragmentContainer">
+        <item name="android:background">#FFFFFF</item>
+    </style>
+    <style name="AppTheme.IntroContainer">
+        <item name="android:background">@color/blue6</item>
+    </style>
+    <style name="AppTheme.IntroTextBig">
+        <item name="android:textSize">28sp</item>
+        <item name="android:textColor">@color/grayf</item>
+    </style>
+    <style name="AppTheme.IntroTextSmall">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/blue2</item>
+    </style>
+    <style name="AppTheme.List">
+        <item name="android:background">#FFFFFF</item>
+        <item name="android:fadingEdgeLength">3dip</item>
+        <item name="android:divider">#FFFFFF</item>
+        <item name="android:dividerHeight">1px</item>
+    </style>
+    <style name="AppTheme.ListItemContainer">
+        <item name="android:background">#EFEFEF</item>
+        <item name="android:paddingBottom">2dip</item>
+    </style>
+    <style name="AppTheme.TwoLineListLowerLineText">
+        <item name="android:textColor">#222222</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="AppTheme.TwoLineListUpperLineText">
+        <item name="android:textColor">#444444</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="MediaController_SeekBar" parent="android:Widget.SeekBar">
+        <item name="android:progressDrawable">@drawable/scrubber_progress_horizontal_holo_dark</item>
+        <item name="android:indeterminateDrawable">@drawable/scrubber_progress_horizontal_holo_dark</item>
+        <item name="android:minHeight">13dip</item>
+        <item name="android:maxHeight">13dip</item>
+        <item name="android:thumb">@drawable/scrubber_control_selector_holo</item>
+        <item name="android:thumbOffset">16dip</item>
+        <item name="android:paddingLeft">16dip</item>
+        <item name="android:paddingRight">16dip</item>
+    </style>
+    <style name="MediaController_Text">
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>

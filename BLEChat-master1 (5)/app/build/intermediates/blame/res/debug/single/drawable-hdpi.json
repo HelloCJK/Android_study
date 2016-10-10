@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\MobileProgramming\\BLEChat-master1 (5)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\common_ic_googleplayservices.png",
+        "source": "D:\\MobileProgramming\\BLEChat-master1 (5)\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\drawable-hdpi\\common_ic_googleplayservices.png"
+    },
+    {
+        "merged": "D:\\MobileProgramming\\BLEChat-master1 (5)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\common_full_open_on_phone.png",
+        "source": "D:\\MobileProgramming\\BLEChat-master1 (5)\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.1.0\\res\\drawable-hdpi\\common_full_open_on_phone.png"
+    },
+    {
+        "merged": "D:\\MobileProgramming\\BLEChat-master1 (5)\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_launcher.png",
+        "source": "D:\\MobileProgramming\\BLEChat-master1 (5)\\app\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    }
+]
