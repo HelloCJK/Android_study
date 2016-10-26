@@ -5,5 +5,6 @@ package com.example.cjk28.quickcoding01;
  */
 
 public abstract class MyValues {
+
     abstract int getValues();
 }
