@@ -14,6 +14,7 @@ public class MyMaxValue extends MyValues {
 
     @Override
     int getValues() {
+
         int max_num = value[0];
 
         for(int i = 0; i < value.length; i++){
