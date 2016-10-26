@@ -3,6 +3,9 @@ package com.example.cjk28.mylocationlogger;
 import android.*;
 import android.Manifest;
 import android.location.Location;
+import android.os.Handler;
+import android.os.Message;
+import android.provider.ContactsContract;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.app.ActivityCompat;
@@ -27,6 +30,9 @@ import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
 public class MapsActivity extends FragmentActivity
         implements
         OnMapReadyCallback, GoogleApiClient.ConnectionCallbacks,
@@ -39,6 +45,8 @@ public class MapsActivity extends FragmentActivity
     private GoogleApiClient mGoogleApiClient;
     private LocationRequest mLocationRequest;
     private static final int REQUEST_CODE_LOCATION = 2;
+
+    private int cntLocation = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -146,13 +154,30 @@ public class MapsActivity extends FragmentActivity
         }
     }
 
+    private double tmpLatitude = 0;
+    private double tmpLongitude = 0;
+
+    private double GetDistance(double x0, double y0, double x1, double y1){
+        return Math.sqrt((Math.pow(x0-x1,2)+Math.pow(y0-y1,2)));
+    }
+
     @Override
     public void onLocationChanged(Location location) {
+        Log.d("하이1", String.valueOf(GetDistance(location.getLatitude(),location.getLongitude(),tmpLatitude,tmpLongitude)));
+        if(GetDistance(location.getLatitude(),location.getLongitude(),tmpLatitude,tmpLongitude) < 0.001)    return;
         LatLng CURRENT_LOCATION = new LatLng(location.getLatitude(), location.getLongitude());
-        mMap.clear();
+        tmpLatitude = location.getLatitude();
+        tmpLongitude = location.getLongitude();
+
+        long now = System.currentTimeMillis();
+        Date date = new Date(now);
+        SimpleDateFormat sdfNow = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
+        String strNow = sdfNow.format(date);
+
         Marker seoul = mMap.addMarker(new MarkerOptions().position(CURRENT_LOCATION)
-                .title("Seoul"));
+                .title(strNow));
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(CURRENT_LOCATION, 15));
+        Log.d("하이2", String.valueOf(cntLocation++));
     }
     protected void startLocationUpdates() {
 

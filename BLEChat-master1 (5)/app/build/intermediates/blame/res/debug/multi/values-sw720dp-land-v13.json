@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "D:\\MobileProgramming\\BLEChat-master1 (5)\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw720dp-land-v13\\values-sw720dp-land-v13.xml",
+        "outputFile": "D:\\MyAp\\BLEChat-master1 (5)\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw720dp-land-v13\\values-sw720dp-land-v13.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 109
                 },
                 "from": {
-                    "file": "D:\\MobileProgramming\\BLEChat-master1 (5)\\app\\src\\main\\res\\values-sw720dp-land\\dimens.xml",
+                    "file": "D:\\MyAp\\BLEChat-master1 (5)\\app\\src\\main\\res\\values-sw720dp-land\\dimens.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
