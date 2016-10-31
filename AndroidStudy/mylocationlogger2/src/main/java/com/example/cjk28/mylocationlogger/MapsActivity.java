@@ -2,12 +2,16 @@ package com.example.cjk28.mylocationlogger;
 
 import android.*;
 import android.Manifest;
+<<<<<<< HEAD
 import android.content.Intent;
 import android.location.Location;
 import android.os.Environment;
 import android.os.Handler;
 import android.os.Message;
 import android.provider.ContactsContract;
+=======
+import android.location.Location;
+>>>>>>> c5b7e1b43b67edb908c2bece0b05c1e241e260bf
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.app.ActivityCompat;
@@ -16,8 +20,11 @@ import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.support.v4.content.ContextCompat;
 import android.util.Log;
+<<<<<<< HEAD
 import android.view.Menu;
 import android.view.MenuItem;
+=======
+>>>>>>> c5b7e1b43b67edb908c2bece0b05c1e241e260bf
 import android.widget.Toast;
 
 import com.google.android.gms.common.ConnectionResult;
@@ -34,6 +41,7 @@ import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 
+<<<<<<< HEAD
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
@@ -50,6 +58,8 @@ import java.util.Date;
 import static android.R.attr.data;
 import static com.google.android.gms.internal.zzsr.My;
 
+=======
+>>>>>>> c5b7e1b43b67edb908c2bece0b05c1e241e260bf
 public class MapsActivity extends FragmentActivity
         implements
         OnMapReadyCallback, GoogleApiClient.ConnectionCallbacks,
@@ -58,18 +68,24 @@ public class MapsActivity extends FragmentActivity
     private GoogleMap mMap;
 
     static final LatLng SEOUL = new LatLng(37.56, 126.97);
+<<<<<<< HEAD
     public static final int CLEAR                = 1;
     public static final int START_BACKGROUND    = 2;
     public static final int STOP_BACKGROUND     = 3;
+=======
+>>>>>>> c5b7e1b43b67edb908c2bece0b05c1e241e260bf
 
     private GoogleApiClient mGoogleApiClient;
     private LocationRequest mLocationRequest;
     private static final int REQUEST_CODE_LOCATION = 2;
 
+<<<<<<< HEAD
     private String state;
     private int cntLocation = 0;
     private String[] upLoading;
 
+=======
+>>>>>>> c5b7e1b43b67edb908c2bece0b05c1e241e260bf
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -86,6 +102,7 @@ public class MapsActivity extends FragmentActivity
                 .findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
     }
+<<<<<<< HEAD
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -173,10 +190,13 @@ public class MapsActivity extends FragmentActivity
         }
     }
 
+=======
+>>>>>>> c5b7e1b43b67edb908c2bece0b05c1e241e260bf
     @Override
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
 
+<<<<<<< HEAD
         if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
             // TODO: Consider calling
             //    ActivityCompat#requestPermissions
@@ -185,12 +205,17 @@ public class MapsActivity extends FragmentActivity
             //                                          int[] grantResults)
             // to handle the case where the user grants the permission. See the documentation
             // for ActivityCompat#requestPermissions for more details.
+=======
+        if(PackageManager.PERMISSION_GRANTED != ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION)
+                && ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED){
+>>>>>>> c5b7e1b43b67edb908c2bece0b05c1e241e260bf
             return;
         }
         mMap.setMyLocationEnabled(true);
         Marker seoul = mMap.addMarker(new MarkerOptions().position(SEOUL).title("Seoul"));
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(SEOUL, 15));
         mMap.animateCamera(CameraUpdateFactory.zoomTo(10),2000,null);
+<<<<<<< HEAD
         mMap.clear();
 
         String strNow = "";
@@ -217,6 +242,9 @@ public class MapsActivity extends FragmentActivity
                 default:
             }
         }
+=======
+
+>>>>>>> c5b7e1b43b67edb908c2bece0b05c1e241e260bf
         // Add a marker in Sydney and move the camera
         //LatLng seoul = new LatLng(37.560000, 126.970000);
         //mMap.addMarker(new MarkerOptions().position(seoul).title("Marker in seoul"));
@@ -230,6 +258,7 @@ public class MapsActivity extends FragmentActivity
         mLocationRequest.setPriority(LocationRequest.PRIORITY_HIGH_ACCURACY);
         mLocationRequest.setInterval(3000);
         mLocationRequest.setFastestInterval(1500);
+<<<<<<< HEAD
         if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
             // TODO: Consider calling
             //    ActivityCompat#requestPermissions
@@ -239,6 +268,12 @@ public class MapsActivity extends FragmentActivity
             // to handle the case where the user grants the permission. See the documentation
             // for ActivityCompat#requestPermissions for more details.
             return;
+=======
+
+        if(PackageManager.PERMISSION_GRANTED != ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION)
+                && ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED){
+            CheckPermission();
+>>>>>>> c5b7e1b43b67edb908c2bece0b05c1e241e260bf
         }
         startLocationUpdates();
     }
@@ -299,6 +334,7 @@ public class MapsActivity extends FragmentActivity
         }
     }
 
+<<<<<<< HEAD
     private double tmpLatitude = 0;
     private double tmpLongitude = 0;
 
@@ -339,6 +375,15 @@ public class MapsActivity extends FragmentActivity
                 .title(strNow));
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(CURRENT_LOCATION, 15));
         Log.d("테스트1", String.valueOf(cntLocation++));
+=======
+    @Override
+    public void onLocationChanged(Location location) {
+        LatLng CURRENT_LOCATION = new LatLng(location.getLatitude(), location.getLongitude());
+        mMap.clear();
+        Marker seoul = mMap.addMarker(new MarkerOptions().position(CURRENT_LOCATION)
+                .title("Seoul"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(CURRENT_LOCATION, 15));
+>>>>>>> c5b7e1b43b67edb908c2bece0b05c1e241e260bf
     }
     protected void startLocationUpdates() {
 
