@@ -2,16 +2,15 @@ package com.example.cjk28.mylocationlogger;
 
 import android.*;
 import android.Manifest;
-<<<<<<< HEAD
+
 import android.content.Intent;
 import android.location.Location;
 import android.os.Environment;
 import android.os.Handler;
 import android.os.Message;
 import android.provider.ContactsContract;
-=======
+
 import android.location.Location;
->>>>>>> c5b7e1b43b67edb908c2bece0b05c1e241e260bf
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.app.ActivityCompat;
@@ -20,11 +19,8 @@ import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.support.v4.content.ContextCompat;
 import android.util.Log;
-<<<<<<< HEAD
 import android.view.Menu;
 import android.view.MenuItem;
-=======
->>>>>>> c5b7e1b43b67edb908c2bece0b05c1e241e260bf
 import android.widget.Toast;
 
 import com.google.android.gms.common.ConnectionResult;
@@ -41,7 +37,6 @@ import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 
-<<<<<<< HEAD
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
@@ -58,8 +53,6 @@ import java.util.Date;
 import static android.R.attr.data;
 import static com.google.android.gms.internal.zzsr.My;
 
-=======
->>>>>>> c5b7e1b43b67edb908c2bece0b05c1e241e260bf
 public class MapsActivity extends FragmentActivity
         implements
         OnMapReadyCallback, GoogleApiClient.ConnectionCallbacks,
@@ -68,24 +61,19 @@ public class MapsActivity extends FragmentActivity
     private GoogleMap mMap;
 
     static final LatLng SEOUL = new LatLng(37.56, 126.97);
-<<<<<<< HEAD
+
     public static final int CLEAR                = 1;
     public static final int START_BACKGROUND    = 2;
     public static final int STOP_BACKGROUND     = 3;
-=======
->>>>>>> c5b7e1b43b67edb908c2bece0b05c1e241e260bf
 
     private GoogleApiClient mGoogleApiClient;
     private LocationRequest mLocationRequest;
     private static final int REQUEST_CODE_LOCATION = 2;
 
-<<<<<<< HEAD
     private String state;
     private int cntLocation = 0;
     private String[] upLoading;
 
-=======
->>>>>>> c5b7e1b43b67edb908c2bece0b05c1e241e260bf
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -102,7 +90,6 @@ public class MapsActivity extends FragmentActivity
                 .findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
     }
-<<<<<<< HEAD
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -190,13 +177,10 @@ public class MapsActivity extends FragmentActivity
         }
     }
 
-=======
->>>>>>> c5b7e1b43b67edb908c2bece0b05c1e241e260bf
     @Override
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
 
-<<<<<<< HEAD
         if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
             // TODO: Consider calling
             //    ActivityCompat#requestPermissions
@@ -205,17 +189,15 @@ public class MapsActivity extends FragmentActivity
             //                                          int[] grantResults)
             // to handle the case where the user grants the permission. See the documentation
             // for ActivityCompat#requestPermissions for more details.
-=======
-        if(PackageManager.PERMISSION_GRANTED != ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION)
-                && ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED){
->>>>>>> c5b7e1b43b67edb908c2bece0b05c1e241e260bf
-            return;
+            if (PackageManager.PERMISSION_GRANTED != ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION)
+                    && ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+                return;
+            }
         }
         mMap.setMyLocationEnabled(true);
         Marker seoul = mMap.addMarker(new MarkerOptions().position(SEOUL).title("Seoul"));
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(SEOUL, 15));
         mMap.animateCamera(CameraUpdateFactory.zoomTo(10),2000,null);
-<<<<<<< HEAD
         mMap.clear();
 
         String strNow = "";
@@ -242,9 +224,6 @@ public class MapsActivity extends FragmentActivity
                 default:
             }
         }
-=======
-
->>>>>>> c5b7e1b43b67edb908c2bece0b05c1e241e260bf
         // Add a marker in Sydney and move the camera
         //LatLng seoul = new LatLng(37.560000, 126.970000);
         //mMap.addMarker(new MarkerOptions().position(seoul).title("Marker in seoul"));
@@ -252,31 +231,29 @@ public class MapsActivity extends FragmentActivity
     }
 
     @Override
-    public void onConnected(@Nullable Bundle bundle) {
+    public void onConnected(@Nullable Bundle bundle){
 
-        mLocationRequest = new LocationRequest();
-        mLocationRequest.setPriority(LocationRequest.PRIORITY_HIGH_ACCURACY);
-        mLocationRequest.setInterval(3000);
-        mLocationRequest.setFastestInterval(1500);
-<<<<<<< HEAD
-        if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
-            // TODO: Consider calling
-            //    ActivityCompat#requestPermissions
-            // here to request the missing permissions, and then overriding
-            //   public void onRequestPermissionsResult(int requestCode, String[] permissions,
-            //                                          int[] grantResults)
-            // to handle the case where the user grants the permission. See the documentation
-            // for ActivityCompat#requestPermissions for more details.
-            return;
-=======
+            mLocationRequest = new LocationRequest();
+            mLocationRequest.setPriority(LocationRequest.PRIORITY_HIGH_ACCURACY);
+            mLocationRequest.setInterval(3000);
+            mLocationRequest.setFastestInterval(1500);
+            if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+                // TODO: Consider calling
+                //    ActivityCompat#requestPermissions
+                // here to request the missing permissions, and then overriding
+                //   public void onRequestPermissionsResult(int requestCode, String[] permissions,
+                //                                          int[] grantResults)
+                // to handle the case where the user grants the permission. See the documentation
+                // for ActivityCompat#requestPermissions for more details.
+                return;
+            }
 
-        if(PackageManager.PERMISSION_GRANTED != ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION)
-                && ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED){
-            CheckPermission();
->>>>>>> c5b7e1b43b67edb908c2bece0b05c1e241e260bf
+            if (PackageManager.PERMISSION_GRANTED != ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION)
+                    && ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+                CheckPermission();
+            }
+            startLocationUpdates();
         }
-        startLocationUpdates();
-    }
 
     private void CheckPermission(){
         int hasWriteContactsPermission = ContextCompat.checkSelfPermission(MapsActivity.this, Manifest.permission.ACCESS_COARSE_LOCATION);
@@ -290,22 +267,6 @@ public class MapsActivity extends FragmentActivity
             ActivityCompat.requestPermissions(MapsActivity.this
             ,new String[]{Manifest.permission.WRITE_CONTACTS}
             ,REQUEST_CODE_LOCATION);
-            return;
-        }
-        hasWriteContactsPermission = ContextCompat.checkSelfPermission(MapsActivity.this, Manifest.permission.ACCESS_FINE_LOCATION);
-
-        if(hasWriteContactsPermission != PackageManager.PERMISSION_GRANTED){
-            if (!ActivityCompat.shouldShowRequestPermissionRationale(MapsActivity.this, android.Manifest.permission.ACCESS_FINE_LOCATION)) {
-
-                ActivityCompat.requestPermissions(MapsActivity.this,
-                        new String[]{android.Manifest.permission.ACCESS_FINE_LOCATION},
-                        REQUEST_CODE_LOCATION);
-
-                return;
-            }
-            ActivityCompat.requestPermissions(MapsActivity.this,
-                    new String[]{android.Manifest.permission.WRITE_CONTACTS},
-                    REQUEST_CODE_LOCATION);
             return;
         }
     }
@@ -334,7 +295,6 @@ public class MapsActivity extends FragmentActivity
         }
     }
 
-<<<<<<< HEAD
     private double tmpLatitude = 0;
     private double tmpLongitude = 0;
 
@@ -343,48 +303,41 @@ public class MapsActivity extends FragmentActivity
     }
 
     @Override
-    public void onLocationChanged(Location location) {
-        Log.d("테스트", String.valueOf(GetDistance(location.getLatitude(),location.getLongitude(),tmpLatitude,tmpLongitude)));
-        if(GetDistance(location.getLatitude(),location.getLongitude(),tmpLatitude,tmpLongitude) < 0.001)    return;
-        LatLng CURRENT_LOCATION = new LatLng(location.getLatitude(), location.getLongitude());
-        tmpLatitude = location.getLatitude();
-        tmpLongitude = location.getLongitude();
+    public void onLocationChanged(Location location){
+            Log.d("테스트", String.valueOf(GetDistance(location.getLatitude(), location.getLongitude(), tmpLatitude, tmpLongitude)));
+            if (GetDistance(location.getLatitude(), location.getLongitude(), tmpLatitude, tmpLongitude) < 0.001)
+                return;
+            LatLng CURRENT_LOCATION = new LatLng(location.getLatitude(), location.getLongitude());
+            tmpLatitude = location.getLatitude();
+            tmpLongitude = location.getLongitude();
 
-        long now = System.currentTimeMillis();
-        Date date = new Date(now);
-        SimpleDateFormat sdfNow = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
-        String strNow = sdfNow.format(date);
+            long now = System.currentTimeMillis();
+            Date date = new Date(now);
+            SimpleDateFormat sdfNow = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
+            String strNow = sdfNow.format(date);
 
-        String data = strNow+ " " + String.valueOf(tmpLatitude) + " " +String.valueOf(tmpLongitude)+ " ";
+            String data = strNow + " " + String.valueOf(tmpLatitude) + " " + String.valueOf(tmpLongitude) + " ";
 
-        try {
-            Log.i("테스트1","쓰기 시작");
-            File path = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOCUMENTS);
-            File f = new File(path, "external.txt"); // 경로, 파일명
-            FileWriter write = new FileWriter(f, true);
-            PrintWriter out = new PrintWriter(write);
-            out.println(data);
-            out.close();
-            Log.i("테스트1","쓰기 종료");
-        } catch (Exception e) {
-            e.printStackTrace();
+            try {
+                Log.i("테스트1", "쓰기 시작");
+                File path = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOCUMENTS);
+                File f = new File(path, "external.txt"); // 경로, 파일명
+                FileWriter write = new FileWriter(f, true);
+                PrintWriter out = new PrintWriter(write);
+                out.println(data);
+                out.close();
+                Log.i("테스트1", "쓰기 종료");
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+            Log.i("테스트1", data);
+
+            Marker seoul = mMap.addMarker(new MarkerOptions().position(CURRENT_LOCATION)
+                    .title(strNow));
+            mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(CURRENT_LOCATION, 15));
+            Log.d("테스트1", String.valueOf(cntLocation++));
         }
-        Log.i("테스트1",data);
 
-        Marker seoul = mMap.addMarker(new MarkerOptions().position(CURRENT_LOCATION)
-                .title(strNow));
-        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(CURRENT_LOCATION, 15));
-        Log.d("테스트1", String.valueOf(cntLocation++));
-=======
-    @Override
-    public void onLocationChanged(Location location) {
-        LatLng CURRENT_LOCATION = new LatLng(location.getLatitude(), location.getLongitude());
-        mMap.clear();
-        Marker seoul = mMap.addMarker(new MarkerOptions().position(CURRENT_LOCATION)
-                .title("Seoul"));
-        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(CURRENT_LOCATION, 15));
->>>>>>> c5b7e1b43b67edb908c2bece0b05c1e241e260bf
-    }
     protected void startLocationUpdates() {
 
         if (ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED
