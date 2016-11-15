@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/UP"
+        android:title="민감도_UP"
+        android:icon="@android:drawable/ic_menu_edit" />
+
+    <item
+        android:id="@+id/DOWN"
+        android:title="민감도_DOWN"
+        android:icon="@android:drawable/ic_menu_save" />
+
+</menu>
